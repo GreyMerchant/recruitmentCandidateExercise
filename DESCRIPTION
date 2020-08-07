@@ -1,0 +1,15 @@
+Package: recruitmentCandidateExercise
+Title: Shiny - recruitmentCandidateExercise
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Francois",
+           family = "van Heerden",
+           role = c("aut", "cre"),
+           email = "francois.vanheerden@kantar.com"
+Description: This was part of a recruitment candidate exercise to build a Shiny application which would be able to help understand how a brand's advertising has influenced its search volumes over time. The task was to create two different models by which to understand this impact. 
+URL: https://docgrey.shinyapps.io/CandidateExercise/
+License: `use_mit_license()
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1

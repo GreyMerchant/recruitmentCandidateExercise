@@ -22,3 +22,5 @@ There should be a slider to allow the viewer to alter the value of the RF (in in
 The models don’t need to be complicated and the Shiny app UI should be simple. Templated Shiny UI is enough. We expect that each model will use its own function with appropriate documentation and that the code will be pushed to your Github repository. We expect to see at least two commits. Along with pushing your code to Github, you should deploy your Shiny app on the Shiny server (using a free account https://www.shinyapps.io/).
 
 The data for the exercise are available here https://github.com/schubertjan/recruitmentCandidateExercise. You are expected to fork the repository into your own Github account and make any code commits in this forked repository.
+
+Shiny application can be accessed here: https://docgrey.shinyapps.io/CandidateExercise/
