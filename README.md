@@ -1,3 +1,16 @@
+# Model 1 - linear regression
+The first model was a simple linear regression through the lm() function. Depending on the data selected the model will slightly change the regression formula. At a total level, it will accommodate all data and show the interaction between media campaigns and the adstock version of the media spend against search volume within its estimates. Filtering on the campaign will remove the media campaign interaction as part of the regression formula. Efficiencies for the three campaigns were reported by taking the estimates and converting them into standardised beta coefficients.  
+
+# Model 2 - Bayesian regression
+The second model was a bayesian linear regression which also made use of a simple call to bayesglm() function. Some basic priors were selected in order for the bayesian model to work. The model results are comparable between the two models. Same considerations were taken on the data and output of the campaigns’ efficiencies. 
+
+# Results
+Results are presented here in Shiny as requested: https://docgrey.shinyapps.io/CandidateExercise/
+
+# Additional comments
+Regrettably, I did not have as much time as I would have liked to work on this project since other work related projects exceeded normal hours. If I had more time, I would have created additional wrappers around the regression and graph functions in order to have them as specified in the document with appropriate documentation. For the adstock function I did at least go through these steps to demonstrate it. In addition, I would have done more regular commits to show good practice with code commits. 
+
+
 # Recruitment Candidate Exercise
 Exercise for Solutions Analytics Director role
 
@@ -22,5 +35,3 @@ There should be a slider to allow the viewer to alter the value of the RF (in in
 The models don’t need to be complicated and the Shiny app UI should be simple. Templated Shiny UI is enough. We expect that each model will use its own function with appropriate documentation and that the code will be pushed to your Github repository. We expect to see at least two commits. Along with pushing your code to Github, you should deploy your Shiny app on the Shiny server (using a free account https://www.shinyapps.io/).
 
 The data for the exercise are available here https://github.com/schubertjan/recruitmentCandidateExercise. You are expected to fork the repository into your own Github account and make any code commits in this forked repository.
-
-Shiny application can be accessed here: https://docgrey.shinyapps.io/CandidateExercise/
